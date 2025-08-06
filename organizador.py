@@ -1,9 +1,8 @@
 from pathlib import Path
 import shutil 
 
-base_path Path.home() / "carpeta_personal" / "appdepeliculas"
+base_path = Path.home() / "carpeta_personal" / "appdepeliculas"
 base_path.mkdir(parents=True, exist_ok=True)    
-
 
 for ext in ["txt", "jpg", "png", "mp4"]:
     for i in range(3):
@@ -15,10 +14,9 @@ orden_personalizado = {
     "jpg": "imagenes",
     "png": "imagenes",
     "mp4": "videos"
-
 }
 
-for carpeta in set (orden_personalizado.values()):
+for carpeta in set(orden_personalizado.values()):
     folder = base_path / carpeta
     folder.mkdir(exist_ok=True)
     
