@@ -36,7 +36,7 @@ appdepeliculas/
 🚀 Cómo usar
 1. Clona este repositorio o copia el script
 
-git clone https://github.com/tu_usuario/organizador-archivos.git
+git clone https://github.com/ooriori/organizador_de_archivos
 cd organizador-archivos
 
 2. Ejecuta el script
