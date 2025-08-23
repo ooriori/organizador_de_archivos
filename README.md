@@ -9,7 +9,7 @@ Este proyecto es un script en Python que organiza automáticamente archivos en c
 3. Usa un diccionario para decidir en qué carpeta debe ir cada tipo de archivo.
 4. Mueve los archivos a las carpetas correspondientes, agrupándolos por tipo.
 
-## 🧠 Ejemplo de organización
+## 🧠 Ejemplo de organización.
 
 Con esta configuración:
 
